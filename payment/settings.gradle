@@ -1,0 +1,13 @@
+pluginManagement {
+	repositories {
+		maven { url 'https://repo.spring.io/milestone' }
+		maven { url 'https://repo.spring.io/snapshot' }
+		maven {
+			name "JCenter Gradle Plugins"
+			url  "https://dl.bintray.com/gradle/gradle-plugins"
+		}
+		gradlePluginPortal()
+		jcenter()
+	}
+}
+rootProject.name = 'payment'
